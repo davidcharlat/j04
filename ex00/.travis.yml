@@ -1,1 +1,2 @@
 language: c
+script: ./test_ft_itérative_factorial.c

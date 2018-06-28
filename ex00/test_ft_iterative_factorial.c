@@ -1,12 +1,22 @@
 #include <stdio.h>
-#include "ft_iterative_factorial.h"
 
-void main ()
+int	ft_iterative_factorial (int n);
+
+int main ()
 {
 		int i;
+		int sum;
+		int fact;
 		
 		i = -2;
-		while (i < 20)
-			printf("%d ", ft_iterative_factorial(i++));
+		sum = 0;
+		while (i < 10)
+		{
+			fact = ft_iterative_factorial(i++);
+			sum = sum + fact;
+			printf("%d ", fact);
+		}
+		printf("\n%d\n", sum);
+		return (sum - 409114);			
 }	
 
