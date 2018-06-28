@@ -17,6 +17,6 @@ int main ()
 			printf("%d ", fact);
 		}
 		printf("\n%d\n", sum);
-		return (sum - 409114);			
+		return (sum - 409115);			
 }	
 
