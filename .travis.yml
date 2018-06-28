@@ -1,2 +1,2 @@
 language: c
-script: ./ex00/test_ft_itérative_factorial.c
+script: ./ex00/test_ft_iterative_factorial.c
