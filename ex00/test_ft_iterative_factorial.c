@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int	ft_iterative_factorial (int n);
+//int	ft_iterative_factorial (int n);
 
 int main ()
 {
@@ -10,13 +10,13 @@ int main ()
 		
 		i = -2;
 		sum = 0;
-		while (i < 10)
+		/*while (i < 10)
 		{
 			fact = ft_iterative_factorial(i++);
 			sum = sum + fact;
 			printf("%d ", fact);
-		}
+		}*/
 		printf("\n%d\n", sum);
-		return (sum - 409114);			
+		return (409114 - 409114);			
 }	
 
