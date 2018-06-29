@@ -1,4 +1,6 @@
 language: c
 script: 
 chmod +x ./ex00/test_ft_iterative_factorial.c
-chmod +x ./ex00/test_ft_recursive_factorial.c
+chmod +x ./ex01/test_ft_recursive_factorial.c
+chmod +x ./ex02/test_ft_iterative_power.c
+chmod +x ./ex03/test_ft_recursive_power.c
