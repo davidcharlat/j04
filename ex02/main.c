@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int	ft_iterative_power(int nb, int power)
 {
 	int pow;
@@ -8,11 +10,9 @@ int	ft_iterative_power(int nb, int power)
 
 	if (power < 0)
 		return(0);
-	else if (power == 0)
-		return(1);
 	else
 	{
-		while (pow < power)
+		while (pow <= power)
 		{
 			result = result * nb;
 			pow++;
@@ -20,3 +20,6 @@ int	ft_iterative_power(int nb, int power)
 		return(result);
 	}
 }
+
+void main(int a, int b)
+{ printf ("%d", ft_iterative_power(3,-3));}
