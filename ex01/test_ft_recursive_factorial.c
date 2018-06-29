@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int	ft_iterative_factorial (int n);
+int	ft_recursive_factorial (int n);
 
 int main ()
 {
@@ -12,7 +12,7 @@ int main ()
 		sum = 0;
 		while (i < 10)
 		{
-			fact = ft_iterative_factorial(i++);
+			fact = ft_recursive_factorial(i++);
 			sum = sum + fact;
 			printf("%d ", fact);
 		}
