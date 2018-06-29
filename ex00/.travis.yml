@@ -1,2 +1,0 @@
-language: c
-script: ./test_ft_iterative_factorial.c
