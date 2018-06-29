@@ -1,2 +1,4 @@
 language: c
-script: ./ex00/test_ft_iterative_factorial.c
+script: 
+chmod +x ./ex00/test_ft_iterative_factorial.c
+chmod +x ./ex00/test_ft_recursive_factorial.c
