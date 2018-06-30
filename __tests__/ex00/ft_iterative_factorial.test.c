@@ -37,4 +37,6 @@ int     main()
     printf("When argument is 11 then return should be 39916800\n");
     assertIntegerEqual(39916800, ft_iterative_factorial(11));
     printf("OK\n");
+    
+    return (0);
 }
