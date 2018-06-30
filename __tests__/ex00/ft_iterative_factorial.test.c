@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int     ft_iterative_factorial(int n);
 
