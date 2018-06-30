@@ -21,5 +21,7 @@ int	sqrttest (int nb, int sup, int inf)
 
 int ft_sqrt (int nb)
 {
+	if (nb < 1)
+		return (0);
 	return (sqrttest (nb, nb, 0));
 }

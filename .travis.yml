@@ -1,3 +1,10 @@
 language: c
 script: 
 - sh ./__tests__/ex00/test.sh
+- sh ./__tests__/ex01/test.sh
+- sh ./__tests__/ex02/test.sh
+- sh ./__tests__/ex03/test.sh
+- sh ./__tests__/ex04/test.sh
+- sh ./__tests__/ex05/test.sh
+- sh ./__tests__/ex06/test.sh
+- sh ./__tests__/ex07/test.sh
